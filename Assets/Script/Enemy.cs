@@ -7,7 +7,6 @@ public class Enemy : MonoBehaviour
 {
     //private int vida = 3;
     GameObject jugador;
-    float velocidad = 0.005f;
     // Start is called before the first frame update
     void Start()
     {
