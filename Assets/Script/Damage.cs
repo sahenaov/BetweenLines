@@ -34,6 +34,8 @@ public class Damage : MonoBehaviour
             Debug.Log("Hemos perdido vida");
             Destroy(other.gameObject);
         }
+
+
         ReceiveDamage();
     }
 
