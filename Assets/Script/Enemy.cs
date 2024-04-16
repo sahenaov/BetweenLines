@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
             lookPos.y = 0;
             var rotation = Quaternion.LookRotation(lookPos);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, rotation, 3);
-            transform.Translate(Vector3.forward*0.7f*Time.deltaTime);
+            transform.Translate(Vector3.forward*1.1f*Time.deltaTime);
         }
     }
 
